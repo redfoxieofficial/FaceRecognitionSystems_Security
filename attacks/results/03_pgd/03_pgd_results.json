@@ -1,0 +1,258 @@
+{
+  "steps_sweep": {
+    "MobileNetV3": {
+      "1": {
+        "clean_accuracy": 98.93,
+        "attacked_accuracy": 73.77,
+        "accuracy_drop": 25.16,
+        "attack_success_rate": 25.44,
+        "avg_conf_clean": 0.9946,
+        "avg_conf_attacked": 0.9617
+      },
+      "5": {
+        "clean_accuracy": 98.93,
+        "attacked_accuracy": 9.22,
+        "accuracy_drop": 89.71,
+        "attack_success_rate": 90.68,
+        "avg_conf_clean": 0.9946,
+        "avg_conf_attacked": 0.9988
+      },
+      "10": {
+        "clean_accuracy": 98.93,
+        "attacked_accuracy": 7.35,
+        "accuracy_drop": 91.58,
+        "attack_success_rate": 92.57,
+        "avg_conf_clean": 0.9946,
+        "avg_conf_attacked": 0.9994
+      },
+      "20": {
+        "clean_accuracy": 98.93,
+        "attacked_accuracy": 7.11,
+        "accuracy_drop": 91.82,
+        "attack_success_rate": 92.81,
+        "avg_conf_clean": 0.9946,
+        "avg_conf_attacked": 1.0
+      },
+      "40": {
+        "clean_accuracy": 98.93,
+        "attacked_accuracy": 7.29,
+        "accuracy_drop": 91.64,
+        "attack_success_rate": 92.63,
+        "avg_conf_clean": 0.9946,
+        "avg_conf_attacked": 1.0
+      }
+    },
+    "GhostNet": {
+      "1": {
+        "clean_accuracy": 99.91,
+        "attacked_accuracy": 94.79,
+        "accuracy_drop": 5.12,
+        "attack_success_rate": 5.12,
+        "avg_conf_clean": 0.9993,
+        "avg_conf_attacked": 0.9706
+      },
+      "5": {
+        "clean_accuracy": 99.91,
+        "attacked_accuracy": 8.92,
+        "accuracy_drop": 90.99,
+        "attack_success_rate": 91.07,
+        "avg_conf_clean": 0.9993,
+        "avg_conf_attacked": 0.9777
+      },
+      "10": {
+        "clean_accuracy": 99.91,
+        "attacked_accuracy": 1.22,
+        "accuracy_drop": 98.69,
+        "attack_success_rate": 98.78,
+        "avg_conf_clean": 0.9993,
+        "avg_conf_attacked": 0.9999
+      },
+      "20": {
+        "clean_accuracy": 99.91,
+        "attacked_accuracy": 1.22,
+        "accuracy_drop": 98.69,
+        "attack_success_rate": 98.78,
+        "avg_conf_clean": 0.9993,
+        "avg_conf_attacked": 1.0
+      },
+      "40": {
+        "clean_accuracy": 99.91,
+        "attacked_accuracy": 1.19,
+        "accuracy_drop": 98.72,
+        "attack_success_rate": 98.81,
+        "avg_conf_clean": 0.9993,
+        "avg_conf_attacked": 1.0
+      }
+    },
+    "EfficientNet": {
+      "1": {
+        "clean_accuracy": 99.97,
+        "attacked_accuracy": 94.17,
+        "accuracy_drop": 5.8,
+        "attack_success_rate": 5.8,
+        "avg_conf_clean": 0.8168,
+        "avg_conf_attacked": 0.6302
+      },
+      "5": {
+        "clean_accuracy": 99.97,
+        "attacked_accuracy": 12.52,
+        "accuracy_drop": 87.45,
+        "attack_success_rate": 87.47,
+        "avg_conf_clean": 0.8168,
+        "avg_conf_attacked": 0.5405
+      },
+      "10": {
+        "clean_accuracy": 99.97,
+        "attacked_accuracy": 0.06,
+        "accuracy_drop": 99.91,
+        "attack_success_rate": 99.94,
+        "avg_conf_clean": 0.8168,
+        "avg_conf_attacked": 0.7387
+      },
+      "20": {
+        "clean_accuracy": 99.97,
+        "attacked_accuracy": 0.0,
+        "accuracy_drop": 99.97,
+        "attack_success_rate": 100.0,
+        "avg_conf_clean": 0.8168,
+        "avg_conf_attacked": 0.8524
+      },
+      "40": {
+        "clean_accuracy": 99.97,
+        "attacked_accuracy": 0.0,
+        "accuracy_drop": 99.97,
+        "attack_success_rate": 100.0,
+        "avg_conf_clean": 0.8168,
+        "avg_conf_attacked": 0.8939
+      }
+    }
+  },
+  "epsilon_sweep": {
+    "MobileNetV3": {
+      "eps_1_255": {
+        "clean_accuracy": 98.93,
+        "attacked_accuracy": 80.07,
+        "accuracy_drop": 18.86,
+        "attack_success_rate": 19.06,
+        "avg_conf_clean": 0.9946,
+        "avg_conf_attacked": 0.9801
+      },
+      "eps_2_255": {
+        "clean_accuracy": 98.93,
+        "attacked_accuracy": 36.62,
+        "accuracy_drop": 62.31,
+        "attack_success_rate": 62.99,
+        "avg_conf_clean": 0.9946,
+        "avg_conf_attacked": 0.984
+      },
+      "eps_4_255": {
+        "clean_accuracy": 98.93,
+        "attacked_accuracy": 9.64,
+        "accuracy_drop": 89.29,
+        "attack_success_rate": 90.26,
+        "avg_conf_clean": 0.9946,
+        "avg_conf_attacked": 0.9998
+      },
+      "eps_8_255": {
+        "clean_accuracy": 98.93,
+        "attacked_accuracy": 7.29,
+        "accuracy_drop": 91.64,
+        "attack_success_rate": 92.63,
+        "avg_conf_clean": 0.9946,
+        "avg_conf_attacked": 1.0
+      },
+      "eps_16_255": {
+        "clean_accuracy": 98.93,
+        "attacked_accuracy": 6.9,
+        "accuracy_drop": 92.03,
+        "attack_success_rate": 93.02,
+        "avg_conf_clean": 0.9946,
+        "avg_conf_attacked": 0.9999
+      }
+    },
+    "GhostNet": {
+      "eps_1_255": {
+        "clean_accuracy": 99.91,
+        "attacked_accuracy": 97.23,
+        "accuracy_drop": 2.68,
+        "attack_success_rate": 2.68,
+        "avg_conf_clean": 0.9993,
+        "avg_conf_attacked": 0.988
+      },
+      "eps_2_255": {
+        "clean_accuracy": 99.91,
+        "attacked_accuracy": 66.27,
+        "accuracy_drop": 33.64,
+        "attack_success_rate": 33.67,
+        "avg_conf_clean": 0.9993,
+        "avg_conf_attacked": 0.9577
+      },
+      "eps_4_255": {
+        "clean_accuracy": 99.91,
+        "attacked_accuracy": 11.96,
+        "accuracy_drop": 87.95,
+        "attack_success_rate": 88.03,
+        "avg_conf_clean": 0.9993,
+        "avg_conf_attacked": 0.994
+      },
+      "eps_8_255": {
+        "clean_accuracy": 99.91,
+        "attacked_accuracy": 1.19,
+        "accuracy_drop": 98.72,
+        "attack_success_rate": 98.81,
+        "avg_conf_clean": 0.9993,
+        "avg_conf_attacked": 0.9999
+      },
+      "eps_16_255": {
+        "clean_accuracy": 99.91,
+        "attacked_accuracy": 0.77,
+        "accuracy_drop": 99.14,
+        "attack_success_rate": 99.23,
+        "avg_conf_clean": 0.9993,
+        "avg_conf_attacked": 1.0
+      }
+    },
+    "EfficientNet": {
+      "eps_1_255": {
+        "clean_accuracy": 99.97,
+        "attacked_accuracy": 98.99,
+        "accuracy_drop": 0.98,
+        "attack_success_rate": 0.98,
+        "avg_conf_clean": 0.8168,
+        "avg_conf_attacked": 0.7195
+      },
+      "eps_2_255": {
+        "clean_accuracy": 99.97,
+        "attacked_accuracy": 85.37,
+        "accuracy_drop": 14.6,
+        "attack_success_rate": 14.61,
+        "avg_conf_clean": 0.8168,
+        "avg_conf_attacked": 0.5881
+      },
+      "eps_4_255": {
+        "clean_accuracy": 99.97,
+        "attacked_accuracy": 31.65,
+        "accuracy_drop": 68.32,
+        "attack_success_rate": 68.34,
+        "avg_conf_clean": 0.8168,
+        "avg_conf_attacked": 0.5913
+      },
+      "eps_8_255": {
+        "clean_accuracy": 99.97,
+        "attacked_accuracy": 0.0,
+        "accuracy_drop": 99.97,
+        "attack_success_rate": 100.0,
+        "avg_conf_clean": 0.8168,
+        "avg_conf_attacked": 0.8937
+      },
+      "eps_16_255": {
+        "clean_accuracy": 99.97,
+        "attacked_accuracy": 0.0,
+        "accuracy_drop": 99.97,
+        "attack_success_rate": 100.0,
+        "avg_conf_clean": 0.8168,
+        "avg_conf_attacked": 0.9741
+      }
+    }
+  }
+}

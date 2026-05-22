@@ -1,0 +1,26 @@
+{
+  "MobileNetV3": {
+    "genuine_accuracy": 98.93,
+    "physical_success_rate": 54.62,
+    "physical_rejection_rate": 45.38,
+    "avg_conf_genuine": 0.9946,
+    "avg_conf_impostor": 0.9,
+    "conf_drop": 0.0946
+  },
+  "GhostNet": {
+    "genuine_accuracy": 99.91,
+    "physical_success_rate": 70.64,
+    "physical_rejection_rate": 29.36,
+    "avg_conf_genuine": 0.9993,
+    "avg_conf_impostor": 0.8394,
+    "conf_drop": 0.1599
+  },
+  "EfficientNet": {
+    "genuine_accuracy": 99.97,
+    "physical_success_rate": 64.22,
+    "physical_rejection_rate": 35.78,
+    "avg_conf_genuine": 0.8168,
+    "avg_conf_impostor": 0.5102,
+    "conf_drop": 0.3066
+  }
+}

@@ -1,0 +1,36 @@
+======================================================================
+PHYSICAL ATTACK EVALUATION -- NUAA PRINTED PHOTOGRAPH
+======================================================================
+
+Model: MobileNetV3
+----------------------------------------
+  Genuine accuracy (ClientFace test):     98.93%
+  Physical attack success rate:           54.62%
+    (model correctly identifies printed photo -> attacker succeeds)
+  Physical attack rejection rate:         45.38%
+    (model fails to match printed photo  -> model is robust)
+  Avg confidence -- genuine:              0.9946
+  Avg confidence -- impostor:             0.9000
+  Confidence drop (genuine - impostor):  +0.0946
+
+Model: GhostNet
+----------------------------------------
+  Genuine accuracy (ClientFace test):     99.91%
+  Physical attack success rate:           70.64%
+    (model correctly identifies printed photo -> attacker succeeds)
+  Physical attack rejection rate:         29.36%
+    (model fails to match printed photo  -> model is robust)
+  Avg confidence -- genuine:              0.9993
+  Avg confidence -- impostor:             0.8394
+  Confidence drop (genuine - impostor):  +0.1599
+
+Model: EfficientNet
+----------------------------------------
+  Genuine accuracy (ClientFace test):     99.97%
+  Physical attack success rate:           64.22%
+    (model correctly identifies printed photo -> attacker succeeds)
+  Physical attack rejection rate:         35.78%
+    (model fails to match printed photo  -> model is robust)
+  Avg confidence -- genuine:              0.8168
+  Avg confidence -- impostor:             0.5102
+  Confidence drop (genuine - impostor):  +0.3066

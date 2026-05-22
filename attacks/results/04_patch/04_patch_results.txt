@@ -1,0 +1,21 @@
+======================================================================
+ADVERSARIAL PATCH ATTACK EVALUATION
+======================================================================
+
+Model: MobileNetV3
+----------------------------------------
+  [   eye patch]  clean=98.93%  attacked=16.09%  drop=82.84pp  ASR=83.73%  Delta_conf=-0.0158
+  [random patch]  clean=98.93%  attacked=13.53%  drop=85.40pp  ASR=86.32%  Delta_conf=+0.0052
+  Eye vs Random drop advantage: -2.56pp
+
+Model: GhostNet
+----------------------------------------
+  [   eye patch]  clean=99.91%  attacked=4.73%  drop=95.18pp  ASR=95.27%  Delta_conf=-0.0001
+  [random patch]  clean=99.91%  attacked=3.51%  drop=96.40pp  ASR=96.49%  Delta_conf=+0.0007
+  Eye vs Random drop advantage: -1.22pp
+
+Model: EfficientNet
+----------------------------------------
+  [   eye patch]  clean=99.97%  attacked=13.74%  drop=86.23pp  ASR=86.25%  Delta_conf=+0.0524
+  [random patch]  clean=99.97%  attacked=13.47%  drop=86.50pp  ASR=86.52%  Delta_conf=+0.1802
+  Eye vs Random drop advantage: -0.27pp

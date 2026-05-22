@@ -1,0 +1,49 @@
+======================================================================
+PGD ATTACK EVALUATION
+======================================================================
+
+A) Steps sweep  (eps=8/255, alpha=2/255)
+----------------------------------------------------------------------
+  MobileNetV3
+    steps=  1  atk_acc=73.77%  ASR=25.44%  conf_drop=-0.0329
+    steps=  5  atk_acc=9.22%  ASR=90.68%  conf_drop=+0.0042
+    steps= 10  atk_acc=7.35%  ASR=92.57%  conf_drop=+0.0048
+    steps= 20  atk_acc=7.11%  ASR=92.81%  conf_drop=+0.0054
+    steps= 40  atk_acc=7.29%  ASR=92.63%  conf_drop=+0.0054
+
+  GhostNet
+    steps=  1  atk_acc=94.79%  ASR=5.12%  conf_drop=-0.0287
+    steps=  5  atk_acc=8.92%  ASR=91.07%  conf_drop=-0.0216
+    steps= 10  atk_acc=1.22%  ASR=98.78%  conf_drop=+0.0006
+    steps= 20  atk_acc=1.22%  ASR=98.78%  conf_drop=+0.0007
+    steps= 40  atk_acc=1.19%  ASR=98.81%  conf_drop=+0.0007
+
+  EfficientNet
+    steps=  1  atk_acc=94.17%  ASR=5.80%  conf_drop=-0.1866
+    steps=  5  atk_acc=12.52%  ASR=87.47%  conf_drop=-0.2763
+    steps= 10  atk_acc=0.06%  ASR=99.94%  conf_drop=-0.0781
+    steps= 20  atk_acc=0.00%  ASR=100.00%  conf_drop=+0.0356
+    steps= 40  atk_acc=0.00%  ASR=100.00%  conf_drop=+0.0771
+
+B) Epsilon sweep  (steps=40, alpha=eps/4)
+----------------------------------------------------------------------
+  MobileNetV3
+    eps=1/255  atk_acc=80.07%  ASR=19.06%
+    eps=2/255  atk_acc=36.62%  ASR=62.99%
+    eps=4/255  atk_acc=9.64%  ASR=90.26%
+    eps=8/255  atk_acc=7.29%  ASR=92.63%
+    eps=16/255  atk_acc=6.90%  ASR=93.02%
+
+  GhostNet
+    eps=1/255  atk_acc=97.23%  ASR=2.68%
+    eps=2/255  atk_acc=66.27%  ASR=33.67%
+    eps=4/255  atk_acc=11.96%  ASR=88.03%
+    eps=8/255  atk_acc=1.19%  ASR=98.81%
+    eps=16/255  atk_acc=0.77%  ASR=99.23%
+
+  EfficientNet
+    eps=1/255  atk_acc=98.99%  ASR=0.98%
+    eps=2/255  atk_acc=85.37%  ASR=14.61%
+    eps=4/255  atk_acc=31.65%  ASR=68.34%
+    eps=8/255  atk_acc=0.00%  ASR=100.00%
+    eps=16/255  atk_acc=0.00%  ASR=100.00%

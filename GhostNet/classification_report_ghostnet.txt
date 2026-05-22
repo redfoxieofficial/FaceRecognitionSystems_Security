@@ -1,0 +1,90 @@
+================================================================================
+DETAILED CLASSIFICATION REPORT - GhostNet
+================================================================================
+
+OVERALL METRICS
+--------------------------------------------------------------------------------
+Accuracy:                    99.87%
+Precision (Macro):           99.67%
+Recall (Macro):              99.94%
+F1-Score (Macro):            99.80%
+Cohen's Kappa:               0.9986
+Matthews Correlation Coef:   0.9986
+
+PER-CLASS METRICS
+--------------------------------------------------------------------------------
+
+Class: 0001
+  Precision: 100.00%
+  Recall:    100.00%
+  F1-Score:  100.00%
+
+Class: 0002
+  Precision: 100.00%
+  Recall:    100.00%
+  F1-Score:  100.00%
+
+Class: 0003
+  Precision: 100.00%
+  Recall:    100.00%
+  F1-Score:  100.00%
+
+Class: 0004
+  Precision: 100.00%
+  Recall:    100.00%
+  F1-Score:  100.00%
+
+Class: 0005
+  Precision: 100.00%
+  Recall:    100.00%
+  F1-Score:  100.00%
+
+Class: 0006
+  Precision: 100.00%
+  Recall:    100.00%
+  F1-Score:  100.00%
+
+Class: 0007
+  Precision: 100.00%
+  Recall:    99.13%
+  F1-Score:  99.56%
+
+Class: 0008
+  Precision: 100.00%
+  Recall:    100.00%
+  F1-Score:  100.00%
+
+Class: 0009
+  Precision: 100.00%
+  Recall:    100.00%
+  F1-Score:  100.00%
+
+Class: 0010
+  Precision: 100.00%
+  Recall:    100.00%
+  F1-Score:  100.00%
+
+Class: 0011
+  Precision: 100.00%
+  Recall:    100.00%
+  F1-Score:  100.00%
+
+Class: 0012
+  Precision: 100.00%
+  Recall:    100.00%
+  F1-Score:  100.00%
+
+Class: 0013
+  Precision: 100.00%
+  Recall:    100.00%
+  F1-Score:  100.00%
+
+Class: 0014
+  Precision: 100.00%
+  Recall:    100.00%
+  F1-Score:  100.00%
+
+Class: 0015
+  Precision: 95.00%
+  Recall:    100.00%
+  F1-Score:  97.44%

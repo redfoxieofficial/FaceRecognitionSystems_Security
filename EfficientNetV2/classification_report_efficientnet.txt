@@ -1,0 +1,90 @@
+================================================================================
+DETAILED CLASSIFICATION REPORT - EfficientNetV2
+================================================================================
+
+OVERALL METRICS
+--------------------------------------------------------------------------------
+Accuracy:                    99.92%
+Precision (Macro):           99.96%
+Recall (Macro):              99.79%
+F1-Score (Macro):            99.88%
+Cohen's Kappa:               0.9991
+Matthews Correlation Coef:   0.9991
+
+PER-CLASS METRICS
+--------------------------------------------------------------------------------
+
+Class: 0001
+  Precision: 100.00%
+  Recall:    100.00%
+  F1-Score:  100.00%
+
+Class: 0002
+  Precision: 100.00%
+  Recall:    100.00%
+  F1-Score:  100.00%
+
+Class: 0003
+  Precision: 100.00%
+  Recall:    100.00%
+  F1-Score:  100.00%
+
+Class: 0004
+  Precision: 100.00%
+  Recall:    100.00%
+  F1-Score:  100.00%
+
+Class: 0005
+  Precision: 100.00%
+  Recall:    100.00%
+  F1-Score:  100.00%
+
+Class: 0006
+  Precision: 99.46%
+  Recall:    100.00%
+  F1-Score:  99.73%
+
+Class: 0007
+  Precision: 100.00%
+  Recall:    100.00%
+  F1-Score:  100.00%
+
+Class: 0008
+  Precision: 100.00%
+  Recall:    96.88%
+  F1-Score:  98.41%
+
+Class: 0009
+  Precision: 100.00%
+  Recall:    100.00%
+  F1-Score:  100.00%
+
+Class: 0010
+  Precision: 100.00%
+  Recall:    100.00%
+  F1-Score:  100.00%
+
+Class: 0011
+  Precision: 100.00%
+  Recall:    100.00%
+  F1-Score:  100.00%
+
+Class: 0012
+  Precision: 100.00%
+  Recall:    100.00%
+  F1-Score:  100.00%
+
+Class: 0013
+  Precision: 100.00%
+  Recall:    100.00%
+  F1-Score:  100.00%
+
+Class: 0014
+  Precision: 100.00%
+  Recall:    100.00%
+  F1-Score:  100.00%
+
+Class: 0015
+  Precision: 100.00%
+  Recall:    100.00%
+  F1-Score:  100.00%

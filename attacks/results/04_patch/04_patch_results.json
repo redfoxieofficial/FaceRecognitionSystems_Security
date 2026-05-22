@@ -1,0 +1,56 @@
+{
+  "MobileNetV3": {
+    "eye": {
+      "clean_accuracy": 98.93,
+      "attacked_accuracy": 16.09,
+      "accuracy_drop": 82.84,
+      "attack_success_rate": 83.73,
+      "avg_conf_clean": 0.9946,
+      "avg_conf_attacked": 0.9788
+    },
+    "random": {
+      "clean_accuracy": 98.93,
+      "attacked_accuracy": 13.53,
+      "accuracy_drop": 85.4,
+      "attack_success_rate": 86.32,
+      "avg_conf_clean": 0.9946,
+      "avg_conf_attacked": 0.9998
+    }
+  },
+  "GhostNet": {
+    "eye": {
+      "clean_accuracy": 99.91,
+      "attacked_accuracy": 4.73,
+      "accuracy_drop": 95.18,
+      "attack_success_rate": 95.27,
+      "avg_conf_clean": 0.9993,
+      "avg_conf_attacked": 0.9992
+    },
+    "random": {
+      "clean_accuracy": 99.91,
+      "attacked_accuracy": 3.51,
+      "accuracy_drop": 96.4,
+      "attack_success_rate": 96.49,
+      "avg_conf_clean": 0.9993,
+      "avg_conf_attacked": 1.0
+    }
+  },
+  "EfficientNet": {
+    "eye": {
+      "clean_accuracy": 99.97,
+      "attacked_accuracy": 13.74,
+      "accuracy_drop": 86.23,
+      "attack_success_rate": 86.25,
+      "avg_conf_clean": 0.8168,
+      "avg_conf_attacked": 0.8692
+    },
+    "random": {
+      "clean_accuracy": 99.97,
+      "attacked_accuracy": 13.47,
+      "accuracy_drop": 86.5,
+      "attack_success_rate": 86.52,
+      "avg_conf_clean": 0.8168,
+      "avg_conf_attacked": 0.997
+    }
+  }
+}
